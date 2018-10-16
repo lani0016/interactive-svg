@@ -1,3 +1,7 @@
+#bear {
+  width: 300px;
+}
+
 #left-ear, #right-ear {
   transition: all .3s linear;
 }
