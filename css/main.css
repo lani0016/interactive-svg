@@ -1,3 +1,26 @@
-.bear {
-  width: 300px;
+#left-ear, #right-ear {
+  transition: all .3s linear;
+}
+
+#bear:hover #left-ear,
+#bear:hover #right-ear {
+  transform: translateY(5px);
+
+}
+
+#left-eye, #right-eye{
+  animation: eyes .5s ease infinite alternate;
+
+}
+
+@keyframes eyes {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+
 }
