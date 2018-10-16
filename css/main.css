@@ -5,12 +5,10 @@
 #bear:hover #left-ear,
 #bear:hover #right-ear {
   transform: translateY(5px);
-
 }
 
-#left-eye, #right-eye{
+#left-eye, #right-eye {
   animation: eyes .5s ease infinite alternate;
-
 }
 
 @keyframes eyes {
